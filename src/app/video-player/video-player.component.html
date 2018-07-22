@@ -1,6 +1,10 @@
 <!-- video player -->
-<div *ngIf="isVideoReady()">
-  <iframe width="800px" height="500px" class="embed-responsive-item" [src]='videoUrl()'  allowfullscreen></iframe>
-</div><!-- /video player -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div *ngIf="isVideoReady()">
+      <iframe [width]="setWidth()" [height]="setHeight()"   class="embed-responsive-item" [src]='videoUrl()' allowfullscreen></iframe>
+    </div><!-- /video player -->
+  </div>
+</div>
 
 

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {YoutubeService} from "../common/youtube.service";
 import {DomSanitizer,SafeResourceUrl} from "@angular/platform-browser";
+declare var $:any;
 
 @Component({
   selector: 'app-video-player',
@@ -27,6 +28,21 @@ export class VideoPlayerComponent {
    * @method isVideoReady
    */
   isVideoReady(){
+    this.setHeight();
     return this.youtube.isVideoReady;
+  }
+  /**
+   *sets the Height of video player dynamically
+   * @method setHeight
+   */
+  setHeight(){
+    return $(window).height()/2;
+  }
+  /**
+   *sets the Width of video player dynamically
+   * @method setWidth
+   */
+  setWidth(){
+    return $(window).width()/2;
   }
 }

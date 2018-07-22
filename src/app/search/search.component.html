@@ -9,12 +9,15 @@
       <!-- Search form -->
       <form (ngSubmit)="search(f)" #f="ngForm" >
         <!-- .input-group -->
-        <div class="input-group mb-3">
-          <input type="text" class="form-control block" placeholder="url of the video..." size="200">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Go!</button>
-          </div>
-        </div>
+        <div class="input-group ">
+          <input  type="text" ngModel name="url" class="form-control block" placeholder="url of the video...">
+          <!-- .span -->
+          <span>
+             <button type="submit" class="btn btn-outline-secondary" >Go!</button>
+           </span><!-- ./span -->
+        </div><!-- /.input-group -->
+        <!--leave a nice padding to the right-->
+        <div class="col"></div>
       </form><!-- /Search form -->
     </div><!-- /.col-->
     <!--leave a nice padding to the right-->
