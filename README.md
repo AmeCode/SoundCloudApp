@@ -5,6 +5,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## View Project
 
-You can see this project in action, please go to: .
+You can see this project in action, please go to: https://replay-77169.firebaseapp.com/
 
 

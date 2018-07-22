@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -55,9 +54,5 @@
     "typescript": "~2.7.2"
   },
   "engines": {
-    "node": "8.11.3",
-    "yarn": "1.7.0",
-    "npm": "6.2.0",
-    "gulp": "3.9.1"
   }
 }
