@@ -12,7 +12,6 @@
   },
   "private": true,
   "dependencies": {
-    "express": "^4.16.3",
     "@angular/animations": "^6.0.3",
     "@angular/cli": "~6.0.8",
     "@angular/common": "^6.0.3",
@@ -25,9 +24,11 @@
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
     "rxjs": "^6.0.0",
-    "yarn": "^1.7.0",
     "typescript": "~2.7.2",
+    "yarn": "^1.7.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
 //            I have change main was dist/SouncCloud
-            "outputPath": "dist/",
+            "outputPath": "dist/YoutubeReplay",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
